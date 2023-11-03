@@ -6,6 +6,8 @@ document.getElementById('start').onclick = function () {
     timeref = setInterval(updateTime, 10);
 };
 
+console.log("poojitha sunkana123")
+
 function updateTime() {
     milliseconds = milliseconds + 10;
     if (milliseconds == 1000) {
